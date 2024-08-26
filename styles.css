@@ -1,0 +1,369 @@
+/* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+   
+}
+
+header {
+    background: #fff;
+    padding: 1rem 2rem;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+}
+
+.nav-links a {
+    width: 100%;
+   margin-left: 55rem;
+    text-decoration: none;
+    color: #333;
+
+}
+
+.nav-links .btn-trial {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 8.1rem;
+}
+
+.hero {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-content .highlight {
+    color: #007bff;
+}
+
+.cta-buttons button {
+    margin-right: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+
+.hero-images img {
+   
+    width: 250px;
+    height: 250px;
+    margin-left: 1rem;
+    border-radius: 10%;
+}
+
+.problem {
+    padding: 2rem;
+    background-color: #fff;
+    /* text-align: center; */
+}
+
+.problem-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.problem-grid i{
+    padding-right: 2rem;
+}
+
+.how-it-works {
+    padding: 2rem;
+    background-color: #98b3da;
+    width: 65rem;
+    margin: auto;
+
+}
+
+.steps {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.step {
+    text-align: center;
+}
+
+.step-number {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+.mentor-help {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.help-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.help-card-one{
+    background-color: #8de6d6;
+    border: 2px solid rgb(86, 242, 86);
+    padding: 1.5rem;
+    width: 30%;
+    border-radius: 8px;
+    
+}
+.help-card-two {
+    background-color: #c5c78a;
+    padding: 1.5rem;
+    width: 30%;
+    border-radius: 8px;
+}
+.help-card-three {
+    background-color: #cbe3e5;
+    padding: 1.5rem;
+    width: 30%;
+    border-radius: 8px;
+}
+
+.testimonials{
+    margin-top: 3rem;
+}
+.customers h1{
+    padding-left: 2rem;
+}
+.customers p{
+    color: #007bff;
+    padding-left: 2rem;
+}
+
+.testimonial{
+   height: 25rem;
+   /* border: 2px solid black; */
+  display: inline-flex;
+  margin-top: 2rem;
+  
+}
+
+.testimonial-1{
+   width: 20rem;
+   height: 20rem;
+   background-color: #fff;
+   margin-left: 2rem;
+   /* margin-top: 2rem; */
+}
+.testimonial-2{
+    width: 20rem;
+   height: 20rem;
+   background-color: #fff;
+   margin-left: 3rem;
+   
+  
+}
+.testimonial-3{
+    width: 20rem;
+   height: 20rem;
+   background-color: #fff;
+   
+   margin-left: 3rem;
+  
+   
+}
+.amazon{
+    /* display: inline-block;
+    position: relative; */
+    display: inline-flex;
+}
+.amazon img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+
+.amazon-1 p{
+    margin-left: 1rem;
+    margin-top: 4rem;
+    
+}
+
+.amazon-1 span{
+    color: #007bff;
+    margin-left: 1rem;
+    
+}
+
+/* footer */
+
+.details{
+    height: 15rem;
+    background-color: #d0ddef;
+    display: inline-flex;
+}
+
+.detail1{
+    width: 27rem;
+    height: 15rem;
+    /* border: 2px solid black; */
+  
+}
+.detail1 img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-top: 4.5rem;
+    margin-left: 12rem;
+}
+.detail1 p{
+    padding-top: 2rem;
+    margin-left: 12rem;
+}
+.detail2{
+    width: 26rem;
+    height: 15rem;
+    /* border: 2px solid black; */
+}
+
+.email-box{
+    display: inline-flex;
+    margin-top: 7rem;
+    margin-left: 6rem;
+}
+.email-box i{
+    margin-top: 1rem;
+}
+.email{
+    padding-left: 1rem;
+}
+.email p{
+    padding-bottom: 0.2rem;
+}
+.detail3{
+    width: 26rem;
+    height: 15rem;
+    /* border: 2px solid black; */
+}
+
+.call-logo{
+    display: inline-flex;
+    margin-top: 7rem;
+    margin-left: 5rem;
+}
+.call-logo i{
+    margin-top: 1rem;
+}
+.call{
+    padding-left:1rem;
+}
+.call p{
+    padding-bottom: 0.2rem;
+}
+
+.doubt{
+    height: 8rem;
+    width: 100%;
+    background-color: #81baf7;
+    display: inline-flex;
+}
+.doubt button{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 21.8rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+    border-radius: 5px;
+   
+}
+.doubt-1 h2{
+margin-left: 6rem;
+margin-top: 3rem;
+}
+.doubt a img{
+    width: 12rem;
+    height: 8rem;
+     margin-left: 11rem;
+}
+.footer-end{
+    height: 13rem;
+    background-color: black;
+    display: inline-flex;
+    width: 100%;
+    
+}
+ .limt{
+    color: #f9f9f9;
+    margin-top: 8rem;
+    margin-left: 8rem;
+
+ }
+ .bit{
+    color: #f9f9f9;
+    margin-top: 8rem;
+    margin-left: 9rem;
+ }
+ .logo{
+    display: inline-flex;
+
+ }
+ .insta-logo{
+    color: white;
+    margin-top: 8rem;
+    margin-left: 6rem;
+ }
+ .fb-logo{
+    color: white;
+    margin-top: 8rem;
+    margin-left: 2rem;
+ }
